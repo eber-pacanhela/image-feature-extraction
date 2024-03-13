@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "image-feature-extraction"
+version = "0.1.0"
+description = ""
+authors = ["Eber Pacanhela <eber.pacanhela@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mahotas = "^1.4.13"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
