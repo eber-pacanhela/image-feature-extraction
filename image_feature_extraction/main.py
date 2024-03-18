@@ -36,4 +36,4 @@ if __name__ == "__main__":
                 body = image_name.replace(";", "")
                 for feature in features:
                     body += f";{feature}"
-                file.write(body)
+                file.write(f"{body}\n")
